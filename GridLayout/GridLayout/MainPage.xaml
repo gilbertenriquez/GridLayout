@@ -49,7 +49,11 @@
         <Button BorderRadius="30" Grid.Row="3" Grid.Column="1" Text="8" 
                 FontSize="30" TextColor="White" 
                 BackgroundColor="Black" />
+        
         <Button BorderRadius="30" Grid.Row="3" Grid.Column="2" Text="9" 
+                FontSize="30" TextColor="White" 
+                BackgroundColor="Black" />
+        <Button BorderRadius="30" Grid.Row="4" Grid.Column="1" Text="0" 
                 FontSize="30" TextColor="White" 
                 BackgroundColor="Black" />
 
