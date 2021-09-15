@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GridLayout.GridLayout2">
-    
-    <Grid Padding="20">
+
+    <Grid Padding="20" BackgroundColor="#127ac7">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="40" />
@@ -13,7 +13,7 @@
             <Label Text="Welcome to Xamarin" FontSize="30" TextColor="White" HorizontalOptions="Center" />
             <Label Text="Cross-platform apps made easy" FontSize="18" TextColor="White" HorizontalOptions="Center" />
         </StackLayout>
-        <Button Grid.Row="1" Text="Login" BackgroundColor="LightSkyBlue" TextColor="White"  />
-        <Button Grid.Row="2" Text="Register" BackgroundColor="LightSkyBlue" TextColor="White" />
+        <Button Grid.Row="1" Text="Login" BackgroundColor="#1dabf0" TextColor="White"  />
+        <Button Grid.Row="2" Text="Register" BackgroundColor="#1dabf0" TextColor="White" />
     </Grid>
 </ContentPage>

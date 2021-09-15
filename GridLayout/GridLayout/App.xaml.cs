@@ -10,7 +10,7 @@ namespace GridLayout
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new GridLayout2();
             //same as stacklayout change the MainPage to GridLayout if you want to run the exercise 2!
         }
 
